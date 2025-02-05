@@ -1,0 +1,73 @@
+<div class="body-container">
+    <div class="left-side">
+        <div ngPreserveWhitespaces class="text-box blurb">
+            <h2>About Me</h2>
+            &emsp;Hello! I'm Andrew Erdei, a 22 year old software engineering student at the University of Connecticut. I have a 
+            great passion for software development and learning new 
+            things. Throughout my time in school, both my diverse 
+            coursework and independent learning helped me to develop a 
+            useful set of technical skills. My experience as a Resident 
+            Assistant and Teaching Assistant also allowed me to learn and 
+            improve my leadership skills such as teamwork, communication, and time management. I plan to make a 
+            positive impact on the field of software engineering by 
+            combining my technical skills with my interpersonal skills to 
+            be the strongest member of a team I can be and learn as many 
+            new things as I can. I strive to expand my knowledge every 
+            day and to connect and learn from those around me in the 
+            field. 
+        </div>
+        <div ngPreserveWhitespaces class="text-box upper-right">
+            <h2>Education</h2>
+            <p>Xaverian High School &emsp;&emsp;&emsp;&emsp;&ensp;Brooklyn, NY &ensp; 2021</p> <br/> 
+            <p>University of Connecticut &emsp;&emsp;&emsp; Storrs, CT &emsp;&emsp; 2025<br/></p>
+            <p>&emsp; &#9830; Bachelor's of Science in Computer Science with <br/> &emsp;&ensp; concentration in Software Design and Development</p>
+            <p>&emsp; &#9830; Minor in Mathematics</p>
+            <h2 style="margin-top: 15px;">Awards</h2>
+            <p class="award">UConn Award Scholarship</p>
+            <p class="award">New England Scholar 2022</p>
+            <p class="award">Dean's List Engineering Fall 2022 - Spring 2023</p>
+            <p class="award">Dean's List Engineering Fall 2024</p>
+        </div>
+    </div>
+    <div class="right-side">
+        <div ngPreserveWhitespaces class="coursework">
+            <h2>Relevant Coursework</h2>
+            <div class="class"><button class="min-button" (click)="minimizeCS()"><span>{{CShidden? '+' : '-'}}</span></button><h3>Computer Science</h3></div>
+            <div style="flex-direction: column;" [style.display]="!CShidden? 'flex' : 'none'">
+                <p>&emsp; &#9830; CSE 2050 - Data Structures and Object-Oriented Design (Python)</p>
+                <p>&emsp; &#9830; CSE 2500 - Intro to Discrete Systems</p>
+                <p>&emsp; &#9830; CSE 3100 - Systems Programming (C)</p>
+                <p>&emsp; &#9830; CSE 3140 - Cybersecurity Lab</p>
+                <p>&emsp; &#9830; CSE 3666 - Intro to Computer Architecture (RISCV)</p>
+                <p>&emsp; &#9830; CSE 2102 - Intro to Software Engineering (AWS and VueJS)</p>
+                <p>&emsp; &#9830; CSE 3500 - Algorithms and Complexity</p>
+                <p>&emsp; &#9830; CSE 3000 - Contemporary Issues in CSE</p>
+                <p>&emsp; &#9830; CSE 3150 - C++ Essentials</p>
+                <p>&emsp; &#9830; CSE 4701 - Principals of Databases</p>
+                <p>&emsp; &#9830; CSE 3300 - Computer Networks and Data</p>
+                <p>&emsp; &#9830; CSE 3150 - C++ Essentials</p>
+                <p>&emsp; &#9830; CSE 3250 - Intro to Cloud Computing</p>
+                <p>&emsp; &#9830; CSE 4705 - Artificial Intelligence</p>
+            </div>
+            <div class="class"><button class="min-button" (click)="minimizeM()"><span>{{Mhidden? '+' : '-'}}</span></button><h3>Mathematics</h3></div>
+            <div style="flex-direction: column;" [style.display]="!Mhidden? 'flex' : 'none'">
+                <p>&emsp; &#9830; MATH 1131Q - Calculus 1</p>
+                <p>&emsp; &#9830; MATH 1132Q - Calculus 2</p>
+                <p>&emsp; &#9830; MATH 2110Q - Multivariable Calculus</p>
+                <p>&emsp; &#9830; MATH 2410Q - Elem Differential Equations</p>
+                <p>&emsp; &#9830; MATH 2210Q - Applied Linear Algebra</p>
+                <p>&emsp; &#9830; MATH 3160 - Probability</p>
+                <p>&emsp; &#9830; MATH 3710 - Into to Mathematical Modelling</p>
+            </div>
+        </div>
+        <div ngPreserveWhitespaces class="text-box skills">
+            <h2>Skills</h2>
+            <h3>Programming Languages</h3>
+            <p>&emsp; &#9830; Python,&ensp;JavaScript,&ensp;C,&ensp;C++,&ensp;SQL,&ensp;Kotlin,&ensp;Java,&ensp;Scheme</p>
+            <h3>Libraries/Frameworks</h3>
+            <p>&emsp; &#9830; Angular,&ensp;React Native,&ensp;VueJS,&ensp;Pandas,&ensp;Node</p>
+            <h3>Cloud</h3>
+            <p>&emsp; &#9830; AWS Lambda,&ensp;AWS API Gateway,&ensp;AWS DynamoDB,&ensp;AWS S3,&ensp;AWS Cloud9</p>
+        </div>
+    </div>
+</div>

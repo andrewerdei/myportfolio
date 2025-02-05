@@ -1,0 +1,46 @@
+<div class="body-container">
+    <div class="project">
+        <div class="image-container" [style.width]="hidden1? '100%':'600px' ">
+            <div class="academic-aid"></div>
+        </div>
+        <button class="expand" (click)="hide(1)">
+            <div class="arrow" [style.display]="hidden1? 'None' : 'block'">&#x21E8;</div>
+            <div class="arrow" [style.display]="!hidden1? 'None' : 'block'">&#x21E6;</div>
+        </button>
+        <div ngPreserveWhitespaces class="text-box description" [@openClose]="hidden1? 'closed' : 'open'">
+            <h2>AcademicAid.xyz</h2>
+            <h4>Angular, Flask, HTML, CSS, Javascript, Python</h4>
+            <p> I spent a summer creating a website using the Angular framework with a python backend which hosts generators for custom 
+                academic planners and grade-tracking spreadsheets. These generators are previous personal projects which I decided to combine 
+                in a way that is publicly accessible and user-friendly. The website makes use of Angular's animation abilities as well as features
+                such as nested hierarchy UI layout with collapsible nodes for the grade-tracker generator. The user enters their data 
+                into the generator and then presses generate which automatically downloads the spreadsheet onto the user's device.
+            </p>
+        </div>
+    </div>
+    <div class="project">
+        <div class="image-container" [style.width]="hidden2? '100%':'600px' ">
+            <div class="academic-husky"></div>
+            <div class="hidden-title" [style.display]="hidden2? 'block' : 'None'">Academic Husky</div>
+        </div>
+        <div ngPreserveWhitespaces class="text-box description" [style.display]="hidden2? 'None' : 'block'">
+            <h2>Academic Husky</h2>
+            <h4>React Native, HTML, CSS, Javascript</h4>
+            <p>I spent a summer working with two colleagues to develop an iOS to-do list style app where users can create assignments. 
+                For each assignment they are able to enter a due date using a mini calendar and extra notes about the assignment. Each assignment 
+                has a swipe to reveal the “delete” and “edit” buttons feature and assignments entered in are saved via async storage and available 
+                even after the user closes the app. 
+            </p>
+        </div>
+    </div>
+    <div class="project">
+        <div ngPreserveWhitespaces class="text-box description">
+            <h2>Python Gradebook</h2>
+            <h4>Python, Pandas Library</h4>
+            <p>This is a program that takes mutliple sources of data regarding student information and grades and compiles them into one single 
+                DataFrame and calculates their final grades. This project was made to learn more about the pandas library and gain experience using 
+                data frames. This is soley for personal education and was made referencing a tutorial which can be found at realpython.com/pandas-project-gradebook/.
+            </p>
+        </div>
+    </div>
+</div>

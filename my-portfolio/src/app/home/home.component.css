@@ -1,0 +1,28 @@
+.intro{
+    position: absolute;
+    margin-top: 5%;
+    text-align: center;
+    margin-left: 60%;
+}
+
+.about-me{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    margin-left: 62%;
+    margin-top: 15%;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: none;
+}
+
+.about-me:hover{
+    background-color: rgb(64, 64, 64);
+    border: 3px solid rgb(255, 255, 255);
+    cursor: pointer;
+}

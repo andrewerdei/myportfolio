@@ -1,0 +1,62 @@
+
+.upper-right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-top: 3%;
+    height: 350px;
+    padding: 10px;
+}
+
+.coursework{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    margin-top: 4%;
+    width: 600px;
+    padding: 10px;
+    min-height: 200px;
+    max-height: 600px;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    overflow-y: scroll;
+}
+
+.blurb{
+    margin-top: 4%;
+    margin-left: 15%;
+    height: 350px;
+}
+
+.skills{
+    margin-top: 3%;
+    width: 600px;
+}
+
+h2{
+    text-align: center;
+    margin: 5px;
+}
+
+.tab1{
+    tab-size: 2;
+}
+
+p{
+    margin-bottom: 5px;
+}
+
+.award{
+    text-align: center;
+}
+
+.class{
+    display:inline-flex;
+}
+
+.min-button{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}

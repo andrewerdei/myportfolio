@@ -1,0 +1,149 @@
+/* You can add global styles to this file, and also import other style files */
+
+.body-container{
+    width: 100%;
+    height: 100vh;
+}
+
+.fa {
+    color: white;
+    padding: 10px;
+}
+
+h1{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+html{
+    background-image: url("assets/images/pexels-slendyalex-3648850.jpg");
+    background-size: contain;
+}
+
+.headshot{
+    margin-left: 15%;
+    margin-top: 5%;
+    height:522px;
+    width:372px;
+    background-image: url("assets/images/headshot.jpg");
+    background-size: contain;
+    border: 2px solid white;
+}
+
+.text-box{
+    width: 400px;
+    height: 200px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    padding: 10px;
+}
+
+.left-side{
+    width: 50%;
+    height: 100%;
+    left: 0;
+    position: absolute;
+}
+
+.right-side{
+    width: 50%;
+    height: 100%;
+    right: 0;
+    position: absolute;
+}
+
+
+.image-container{
+    width: 600px;
+    height: 100%;
+}
+
+.project{
+    display: flex;
+    position: relative;
+    width: 95%;
+    height: 300px;
+    border: 2px solid white;
+    margin-top: 10px;
+    margin: 10px auto;
+}
+
+.description{
+    width: 100%;
+    height: 93%;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.expand{
+    display: flex;
+    height: 97%;
+    width: 30px;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.expand:hover{
+    padding-left: 7px;
+}
+
+.arrow{
+    display: block;
+    height: 40px;
+    width: 50px;
+    margin: auto 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+.hidden-title{
+    margin: 15% auto;
+    position: absolute;
+    height: 15%;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+}
+
+.job{
+    display: flex;
+    position: relative;
+    width: 70%;
+    height: 250px;
+    border: 2px solid white;
+    background-color: black;
+    margin-top: 10px;
+    margin: 10px auto;
+}
+
+.academic-aid{
+    width: 100%;
+    height: 100%;
+    background-image: url("assets/images/academicaid.PNG");
+    background-size: cover;
+}
+
+.course-scheduler{
+    width: 100%;
+    height: 100%;
+    background-image: url("assets/images/course_scheduler.PNG");
+    background-size: cover;
+}
+
+.academic-husky{
+    width: 100%;
+    height: 100%;
+    background-image: url("assets/images/academichusky.PNG");
+    background-size: cover;
+}
