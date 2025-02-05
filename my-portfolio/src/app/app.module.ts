@@ -9,6 +9,7 @@ import { AboutComponent } from './about/about.component';
 import { PersonalComponent } from './personal/personal.component';
 import { AcademicComponent } from './academic/academic.component';
 import { ExperienceComponent } from './experience/experience.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ExperienceComponent } from './experience/experience.component';
     BrowserModule,
     AppRoutingModule,
     PersonalComponent,
-    AcademicComponent
+    AcademicComponent,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
