@@ -7,8 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AboutComponent {
 
-  CShidden = false;
-  Mhidden = false;
+  CShidden = true;
+  Mhidden = true;
 
   minimizeCS(): void{
     this.CShidden = !this.CShidden;
