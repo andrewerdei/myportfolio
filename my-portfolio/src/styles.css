@@ -24,11 +24,11 @@ html{
 }
 
 .headshot{
-    margin-left: 15%;
+    margin-left: 17%;
     margin-top: 5%;
     height:522px;
-    width:372px;
-    background-image: url("assets/images/headshot.jpg");
+    width:345px;
+    background-image: url("assets/images/professional-shot.jpg");
     background-size: contain;
     border: 2px solid white;
 }
