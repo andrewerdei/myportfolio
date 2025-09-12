@@ -67,19 +67,22 @@ html{
 .project{
     display: flex;
     position: relative;
-    width: 95%;
+    width: 90%;
     height: 300px;
+    background-color: black;
     border: 2px solid white;
     margin-top: 10px;
     margin: 10px auto;
+    color: white;
 }
 
 .description{
     width: 100%;
-    height: 93%;
+    height: 10%;
     border: none;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 25px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .expand{
@@ -130,20 +133,39 @@ html{
 .academic-aid{
     width: 100%;
     height: 100%;
-    background-image: url("assets/images/academicaid.PNG");
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("assets/images/academicaid.PNG");
     background-size: cover;
-}
-
-.course-scheduler{
-    width: 100%;
-    height: 100%;
-    background-image: url("assets/images/course_scheduler.PNG");
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    justify-content: center;
 }
 
 .academic-husky{
     width: 100%;
     height: 100%;
-    background-image: url("assets/images/academichusky.PNG");
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("assets/images/academichusky.PNG");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    justify-content: center;
+}
+
+.course-scheduler{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("assets/images/course_scheduler.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    justify-content: center;
+}
+
+.sdp{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("assets/images/SDPlogo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    justify-content: center;
 }
