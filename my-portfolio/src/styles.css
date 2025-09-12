@@ -34,7 +34,7 @@ html{
 }
 
 .text-box{
-    width: 400px;
+    width: 80%;
     height: 250px;
     border: 2px solid white;
     border-radius: 5px;
@@ -56,6 +56,7 @@ html{
     height: 100%;
     right: 0;
     position: absolute;
+    justify-content: center;
 }
 
 
