@@ -1,22 +1,38 @@
 <div class="body-container">
     <div class="project">
-        <div class="image-container" [style.width]="hidden1? '100%':'600px' ">
-            <div class="course-scheduler"></div>
+        <div class="left-side">
+            <div ngPreserveWhitespaces class="text-box description">
+                <h2>Code Analysis Tool</h2>
+                <p><br>Senior Design Project<br>
+                A Python Code Analysis tool which analysis code readability, function, redundancy, cyclomatic complexity, and generates ASTs based on user selection.</p>
+                <h3>Technical Implementation</h3>
+                <p>&emsp; &#9830; Django framework</p>
+                <p>&emsp; &#9830; HTML, CSS frontend</p>
+                <p>&emsp; &#9830; Python backend</p>
+                <p>&emsp; &#9830; AWS Cloud Services (DynamoDB, Lambda)</p>
+                <p>&emsp; &#9830; Git, Trello</p>
+            </div>
         </div>
-        <button class="expand" (click)="hide(1)">
-            <div class="arrow" [style.display]="hidden1? 'None' : 'block'">&#x21E8;</div>
-            <div class="arrow" [style.display]="!hidden1? 'None' : 'block'">&#x21E6;</div>
-        </button>
-        <div ngPreserveWhitespaces class="text-box description" [@openClose]="hidden1? 'closed' : 'open'">
-            <h2>Course Scheduler</h2>
-            <h4>VueJS, Python, Html, CSS, Javascript, AWS, Git, Trello</h4>
-            <p> This project was created as a final project for CSE 2102: Intro to Software Engineering. Working in a group of four, we
-                created a website that allows students of an institution to add/drop courses onto their schedule and see what courses are offered,
-                what prerequisites they have, as well as the times and professor of each course. On top of the student view of the site, there is also 
-                an admin login where professors and other administrators declared in the AWS DynamoDB table can access their courses and edit/remove them.
-                The frontend of this website was created using VueJS and planned using Trello while the backend was created using Python and utilizing AWS 
-                features such as Lambda, DynamoDB, S3, and API Gateway. The collaboration was kept track of and carried out through the use of Git.
-            </p>
+        <div class="right-side">
+            <div class="sdp"></div>
+        </div>
+    </div>
+    <div class="project">
+        <div class="left-side">
+            <div ngPreserveWhitespaces class="text-box description">
+                <h2>Course Scheduler</h2>
+                <p><br>Final project for CSE2102: Intro to Software Engineering.<br>
+                A course scheduling website which allows students to add/drop classes created by professors. Both admin and student logins available with different privileges and abilities.</p>
+                <h3>Technical Implementation</h3>
+                <p>&emsp; &#9830; VueJS framework, HTML, CSS, JavaScript frontend</p>
+                <p>&emsp; &#9830; Python backend</p>
+                <p>&emsp; &#9830; Flask API</p>
+                <p>&emsp; &#9830; AWS Cloud Services</p>
+                <p>&emsp; &#9830; Git, Trello</p>
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="course-scheduler"></div>
         </div>
     </div>
 </div>
